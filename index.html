@@ -58,12 +58,12 @@ QUISPE CONDORI KEVIN OMAR; MAYTA NINA JOSE ANTONIO; APAZA ROQUE JOSE MANUEL
       <!-- ========================================================= -->
 
       <!-- TARJETA A: Marcador Hiro -> a-box (cubo) -> color: blue -->
-      <a-marker preset="hiro" smooth="true" smoothCount="5" smoothTolerance="0.01" smoothThreshold="2">
+      <a-marker preset="kanji" smooth="true" smoothCount="5" smoothTolerance="0.01" smoothThreshold="2">
         <a-box id="figura-1" position="0 0.5 0" material="color: green; roughness: 0.5;" scale="1 1 1"></a-box>
       </a-marker>
 
       <!-- TARJETA B: Marcador Kanji -> a-sphere (esfera) -> color: red -->
-      <a-marker preset="kanji" smooth="true" smoothCount="5" smoothTolerance="0.01" smoothThreshold="2">
+      <a-marker preset="hiro" smooth="true" smoothCount="5" smoothTolerance="0.01" smoothThreshold="2">
         <a-sphere id="figura-2" position="0 0.5 0" radius="0.5" material="color: red; roughness: 0.5;" scale="1 1 1"></a-sphere>
       </a-marker>
 
@@ -78,7 +78,7 @@ QUISPE CONDORI KEVIN OMAR; MAYTA NINA JOSE ANTONIO; APAZA ROQUE JOSE MANUEL
       // 1.5 = +50% (obligatorio por defecto)
       // 2.0 = Duplicar | 3.0 = Triplicar | 4.0 = Cuadruplicar
       // 0.5 = Reducir a la mitad | 0.25 = Reducir a un cuarto
-      const FACTOR_ESCALA = 1.5; 
+      const FACTOR_ESCALA = 0.5; 
       const TEXTO_MODIFICADO = 'Ampliado'; // Puedes cambiarlo a 'Reducido' o 'Triplicado'
       // =========================================================
 
